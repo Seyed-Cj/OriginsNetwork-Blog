@@ -1,12 +1,11 @@
 # **📝 OriginsNetwork-Blog**  
 ### **A Modern Educational Content Management System (CMS)**  
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+<div align="center">
+  <a href="#">
+    <img src="https://skillicons.dev/icons?i=nodejs,express,react,vite,tailwind,mongodb&theme=dark" />
+  </a>
+</div>
 
 **OriginsNetwork-Blog** is an open-source educational content management system (CMS) that allows instructors and admins to publish and manage educational posts. Built with **React.js (Vite)** for the frontend, **Express.js + MongoDB** for the backend, and styled with **Tailwind CSS**, this project delivers a fast, responsive, and scalable platform for educational content sharing.
 
