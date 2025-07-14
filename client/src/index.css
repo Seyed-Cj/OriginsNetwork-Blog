@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: var(--container-padding);
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@font-face {
+  font-family: 'peyda';
+  src: url('./assets/fonts/Peyda-Regular.woff') format('woff');
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF; 
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./assets/fonts/OpenSans-SemiBold.ttf') format('truetype');
+  unicode-range: U+0000-00FF; 
+}
+
+body {
+  font-family: 'peyda', 'Open Sans', sans-serif;
+}
+
+.bg-custom-gradient {
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(52, 235, 107, 1) 23.1%, rgba(0, 136, 73, 1) 80.2%);
+}
+
+.dark .bg-custom-gradient {
+  background-image: none;
+  background-color: #121212;
+}
+
+.navbar-gradient {
+  background: linear-gradient(180deg,rgba(3, 3, 3, 0.4) 30%, rgba(81, 255, 0, 0) 100%);
+}
