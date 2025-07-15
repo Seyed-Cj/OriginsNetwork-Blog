@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-100 dark:bg-zinc-900 text-gray-300 py-12">
+    <footer className="mt-10 bg-green-300 dark:bg-zinc-900 text-gray-300 py-12">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row gap-8 md:gap-12">
           <div className="md:w-1/4">
@@ -53,7 +53,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-700 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-4 md:mb-0 bg-zinc-700 dark:bg-zinc-900 rounded-full p-[2px]">
+          <div className="mb-4 md:mb-0 rounded-full p-[2px]">
             <img src="/images/logo.png" alt="Origins Studio" className="h-8" />
           </div>
           <div className="text-sm text-gray-500">
