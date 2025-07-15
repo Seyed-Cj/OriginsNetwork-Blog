@@ -35,3 +35,23 @@ body {
 .navbar-gradient {
   background: linear-gradient(180deg,rgba(3, 3, 3, 0.4) 30%, rgba(81, 255, 0, 0) 100%);
 }
+
+.swiper-pagination-bullet {
+  background: white !important;
+  opacity: 0.6 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #10B981 !important;
+  opacity: 1 !important;
+}
+
+.swiper-button-next, 
+.swiper-button-prev {
+  color: #10B981 !important;
+}
+
+.swiper-button-next:after, 
+.swiper-button-prev:after {
+  font-size: 1.5rem !important;
+}
